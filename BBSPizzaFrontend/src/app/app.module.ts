@@ -14,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { OffersComponent } from './pages/offers/offers.component';
 import { DeliveryMapComponent } from './delivery-map/delivery-map.component';
 import { UsermenuComponent } from './usermenu/usermenu.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { UsermenuComponent } from './usermenu/usermenu.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
