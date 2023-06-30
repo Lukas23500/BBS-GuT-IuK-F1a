@@ -13,6 +13,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { OffersComponent } from './pages/offers/offers.component';
 import { DeliveryMapComponent } from './delivery-map/delivery-map.component';
+import { UsermenuComponent } from './usermenu/usermenu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DeliveryMapComponent } from './delivery-map/delivery-map.component';
     HomeComponent,
     NotfoundpageComponent,
     OffersComponent,
-    DeliveryMapComponent
+    DeliveryMapComponent,
+    UsermenuComponent
    ],
   imports: [
     BrowserModule,
